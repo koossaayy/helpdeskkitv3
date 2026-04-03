@@ -67,18 +67,22 @@ class UserResource extends Resource
                     ->columns()
                     ->schema([
                         Forms\Components\Toggle::make('status')
+                            ->label(__('Status'))
                             ->required()
                             ->autofocus(),
                         Forms\Components\TextInput::make('name')
+                            ->label(__('Name'))
                             ->required()
                             ->string()
                             ->autofocus(),
                         Forms\Components\TextInput::make('email')
+                            ->label(__('Email'))
                             ->required()
                             ->string()
                             ->unique('users', 'email', ignoreRecord: true)
                             ->email(),
                         Forms\Components\TextInput::make('password')
+                            ->label(__('Password'))
                             ->password()
                             ->required(fn (string $context): bool => $context === 'create')
                             ->dehydrated(fn ($state) => filled($state))
@@ -94,11 +98,15 @@ class UserResource extends Resource
                 Infolists\Components\Section::make()
                     ->columns()
                     ->schema([
-                        Infolists\Components\TextEntry::make('id'),
+                        Infolists\Components\TextEntry::make('id')
+                            ->label(__('Id')),
                         Infolists\Components\IconEntry::make('status')
+                            ->label(__('Status'))
                             ->boolean(),
-                        Infolists\Components\TextEntry::make('name'),
+                        Infolists\Components\TextEntry::make('name')
+                            ->label(__('Name')),
                         Infolists\Components\TextEntry::make('email')
+                            ->label(__('Email'))
                             ->copyable()
                             ->copyMessage('Email copiado com sucesso!')
                             ->copyMessageDuration(1500),
@@ -115,22 +123,27 @@ class UserResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\IconColumn::make('status')
+                    ->label(__('Status'))
                     ->boolean()
                     ->trueIcon('heroicon-o-check-badge')
                     ->falseIcon('heroicon-o-x-mark')
                     ->sortable(),
                 Tables\Columns\TextColumn::make('name')
+                    ->label(__('Name'))
                     ->searchable()
                     ->sortable(),
                 Tables\Columns\TextColumn::make('email')
+                    ->label(__('Email'))
                     ->searchable()
                     ->sortable()
                     ->toggleable(),
                 Tables\Columns\TextColumn::make('created_at')
+                    ->label(__('Created At'))
                     ->dateTime()
                     ->sortable()
                     ->toggleable(isToggledHiddenByDefault: true),
                 Tables\Columns\TextColumn::make('updated_at')
+                    ->label(__('Updated At'))
                     ->dateTime()
                     ->sortable()
                     ->toggleable(isToggledHiddenByDefault: true),
